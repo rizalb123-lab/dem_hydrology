@@ -1,0 +1,18 @@
+[general]
+name=DEM Hydrology Toolkit
+qgisMinimumVersion=3.22
+description=All DEM-based hydrology analyses in one tool: 30 analyses (flow routing, Strahler order, watersheds, HAND, TWI, LS, isochrones, flood/erosion indices) with auto symbology, standard maps, Excel and PDF reports. Multilingual.
+version=1.0.0
+author=Rizal Brilliant Nugraha
+email=rizalb123@gmail.com
+about=DEM Hydrology Toolkit computes every hydrology analysis that can be derived from a DEM alone, with the original (English) analysis names: Fill Sinks (Priority-Flood), depressions, slope, aspect, hillshade, curvature, TPI, TRI, landform classification, flow direction and accumulation (D8, D-Infinity, MFD), flow length, stream network with Strahler order and Shreve magnitude, sub-watersheds, watersheds from pour points, basin morphometry and hypsometry, TWI, SPI, STI, LS factor (RUSLE), HAND, drainage density, travel time / isochrones, HAND flood and bathtub inundation, and composite flood-susceptibility, recharge-potential and erosion-susceptibility indices. Every output is styled automatically, drawn on a standard map (legend, scale bar, north arrow, administrative boundaries and labels), and summarised in an Excel workbook and a PDF report. Each analysis lists its formula, limitations and scientific references, and all parameters are user-editable. The interface and reports are multilingual (English, Indonesian, Spanish, French, Portuguese); users can add or edit languages by dropping a JSON file in the language folder. Requires numpy and scipy (bundled with QGIS); openpyxl is needed for the Excel report. Free to use; support the author at https://sociabuzz.com/rizalb123
+tracker=https://github.com/rizalb123-lab/dem_hydrology/issues
+repository=https://github.com/rizalb123-lab/dem_hydrology
+homepage=https://github.com/rizalb123-lab/dem_hydrology
+tags=hydrology,DEM,watershed,flow accumulation,strahler,HAND,TWI,morphometry,terrain,flood
+category=Plugins
+icon=icon.svg
+experimental=False
+deprecated=False
+hasProcessingProvider=no
+changelog=1.0.0 - First international release: 30 DEM hydrology analyses, multilingual interface and reports (user-extendable), success pop-up.
